@@ -1,0 +1,4 @@
+baseURL = 'https://blurn.io/'
+languageCode = 'en-us'
+title = 'Testing'
+theme = 'PaperMod'
