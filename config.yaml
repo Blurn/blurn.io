@@ -1,0 +1,24 @@
+baseURL: 'https://blurn.io/'
+languageCode: en-us
+title: Andrew Blackburn
+theme: PaperMod
+params:
+    homeInfoParams:
+        Title: Andrew Blackburn (he/him)
+        Content: Edu technology, Soccer coach, Husband
+    ShowReadingTime: true
+    ShowToc: true
+    ShowShareButtons: true
+    ShowCodeCopyButtons: true
+    socialIcons:
+        - name: "Twitter"
+          url: "https://twitter.com/Blurn"
+        - name: "GitHub"
+          url: "https://github.com/Blurn"
+        - name: "LinkedIn"
+          url: "https://www.linkedin.com/in/andrewjblackburn/"
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
