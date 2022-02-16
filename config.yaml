@@ -4,7 +4,7 @@ title: /blurn/blog
 theme: PaperMod
 params:
     homeInfoParams:
-        Title: Andrew Blackburn
+        Title: Andrew Blackburn (he/him)
         Content: -Edu technology director, Soccer coach, Husband
     ShowReadingTime: true
     ShowToc: true
