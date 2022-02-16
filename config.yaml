@@ -1,14 +1,13 @@
 baseURL: 'https://blurn.io/'
 languageCode: en-us
-title: Andrew Blackburn
+title: /blurn/blog
 theme: PaperMod
 params:
     homeInfoParams:
-        Title: Andrew Blackburn (he/him)
-        Content: Edu technology, Soccer coach, Husband
+        Title: Andrew Blackburn
+        Content: -Edu technology director, Soccer coach, Husband
     ShowReadingTime: true
     ShowToc: true
-    ShowShareButtons: true
     ShowCodeCopyButtons: true
     socialIcons:
         - name: "Twitter"
