@@ -173,7 +173,7 @@ foreach ($Device in $AutopilotDevices) {
     }
 }
 
-# Reverse the process and remove any dummmy computer objects in AD that are no longer in Autopilot
+# Reverse the process and remove any dummy computer objects in AD that are no longer in Autopilot
 $DummyDevices = Get-ADComputer -Filter * -SearchBase $orgUnit | Select-Object Name, SAMAccountName
 foreach ($DummyDevice in $DummyDevices) {
   if ($AutopilotDevices.azureActiveDirectoryDeviceId -contains $DummyDevice.Name) {
@@ -181,7 +181,7 @@ foreach ($DummyDevice in $DummyDevices) {
     } else {
         Write-Host "$($DummyDevice.Name) does not exist in Autopilot." -ForegroundColor Yellow
         # Remove-ADComputer -Identity $DummyDevice.SAMAccountName -Confirm:$False -WhatIf 
-        #Remove -WhatIf once you are comfortrable with this workflow and have verified the remove operations are only performed in the OU you specified
+        #Remove -WhatIf once you are comfortable with this workflow and have verified the remove operations are only performed in the OU you specified
     }
 }
 ```
